@@ -1,6 +1,6 @@
 # Site settings
-title: SecOpsMom's Blog
-SEOTitle: SecOpsMom's Blog
+title: SecOpsMom
+SEOTitle: SecOpsMom
 email: SecOpsMom@gmail.com
 description: "Somewhere between DevOps, Infosec, and the Cloud"
 url: "https://secopsmom.github.io"              # your host, for absolute URL
