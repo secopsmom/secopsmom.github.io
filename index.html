@@ -6,13 +6,13 @@ description: "Somewhere between DevOps, Infosec, and the Cloud"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <h4 class="post-title">
             {{ post.title }}
-        </h2>
+        </h4>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">
+        <h5 class="post-subtitle">
             {{ post.subtitle }}
-        </h3>
+        </h5>
         {% endif %}
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
