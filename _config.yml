@@ -1,7 +1,6 @@
 # Site settings
 title: SecOpsMom
 SEOTitle: SecOpsMom
-email: SecOpsMom@gmail.com
 description: "Somewhere between DevOps, Infosec, and the Cloud"
 url: "https://secopsmom.github.io"              # your host, for absolute URL
 baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
@@ -31,10 +30,10 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: false                          # whether or not using Sidebar.
 sidebar-about-description: "Mom"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+#sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: false                     # whether or not using Feature-Tags
+#featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
